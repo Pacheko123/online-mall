@@ -77,6 +77,7 @@
                <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
                <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Chronographs & Jewelleries</strong></h5>
                <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Open Your store</a>
+
                <!-- <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a> -->
              </div>
              <!--Grid column-->
@@ -99,7 +100,9 @@
     </div>
   </div>
 </div>
-
+<div class="container">
+<br><h4>New In Stock</h4>
+</div>
 <?php
       echo '<div class="container">';
        echo '<div class="row">';
@@ -110,18 +113,14 @@
            // <!-- Card Narrower -->
            echo'<div class="card card-cascade wider">';
               // <!-- Card image -->
-            echo '<div class="view view-cascade overlay">';
+            // echo '<div class="view view-cascade overlay">';
             echo'<img class="card-img-top" src="'.$row['image'].'" >';
-            echo ';<a>
-                      <div class="mask rgba-white-slight"></div>
-                    </a>';
-            echo "</div>";
                   // <!-- Card content -->
             echo "<div class='card-body card-body-cascade'>";
             echo '<h5 class="pink-text pb-2 pt-1"></i>'.$row['title'].'</h5>';
-            echo'<h4 class="font-weight-bold card-title">'.$row['price'].'</h4>';
+            echo'<h4 class="font-weight-bold card-title">Ksh. '.$row['price'].'</h4>';
             echo'<p class="card-text">'.$row['description'].'</p>';
-            echo'<a class="btn btn-primary">Buy Now</a>';
+            echo'<a class="btn btn-primary">Order Now</a>';
             echo'</div>';
             echo'<div class="card-footer text-muted text-center">
                     Added 2 days ago
