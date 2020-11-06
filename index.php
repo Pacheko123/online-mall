@@ -78,6 +78,18 @@
                <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Chronographs & Jewelleries</strong></h5>
                <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Open Your store</a>
 
+               <div class="container">
+                 <div class="row">
+               <div class="input-group col-md-4 offset-md-4  center-block">
+                 <div class="input-group-prepend">
+                   <span class="input-group-text" id="validationTooltipUsernamePrepend glyphicon glyphicon-search">@</span>
+                 </div>
+                 <br><input type="text" class="form-control" id="validationTooltipUsername" placeholder="Search product" aria-describedby="validationTooltipUsernamePrepend" required>
+               </div>
+             </div>
+           </div>
+           </div>
+
                <!-- <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a> -->
              </div>
              <!--Grid column-->
@@ -87,7 +99,7 @@
          <!-- Content -->
        </div>
        <!-- Mask & flexbox options-->
-     </div>
+
 
 <div class="container">
   <div class="row">
